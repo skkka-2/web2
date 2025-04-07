@@ -62,7 +62,7 @@ const sassEmbedded = require('sass-embedded');
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: './',
+  base: '/web2/',
   plugins: [
     vue(),
     ElementPlus({ useSource: true }),
