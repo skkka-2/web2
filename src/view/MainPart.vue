@@ -11,7 +11,119 @@ const itemList = ref([
     cont: "4 月 10 日 19:30，CSDN《万有引力》栏目特别邀请腾讯云开发者 AI 产品负责人汪晟杰，百度 Com...",
     like: "66612",
     view: "888421"
-   }
+  }, {
+    title: "Go占比首次突破3%，Kotlin和Swift退居二线！TIOBE 4月榜单发布",
+    cont: "本周，TIOBE 最新公布了 4 月编程语言排行榜。在这个全球开发者广泛关注的榜单中，这次又有哪些...",
+    like: "66612",
+    view: "888421"
+  },
+  {
+    title: "腾讯张军回应微信“已读”功能；OpenAI对马斯克提起反诉；谷歌发布第七代TP...",
+    cont: "本周，TIOBE 最新公布了 4 月编程语言排行榜。在这个全球开发者广泛关注的榜单中，这次又有哪...",
+    like: "66612",
+    view: "888421"
+   },
+  {
+    title: "小米汽车支持Siri语音控车；苹果市值4天蒸发超5万亿元；斯坦福：中美AI模...",
+    cont: "「极客头条」—— 技术人员的新闻圈！",
+    like: "66612",
+    view: "888421"
+   },
+  {
+    title: "Llama 4刚开源就“翻车”？员工曝内幕：训练时作弊、刷分造榜，自己已选择...",
+    cont: "过去，在强大的 DeepSeek 系列还没开源之前，Meta 的 Llama 一直是开源大模型界的“天花板”。值得...",
+    like: "66612",
+    view: "888421"
+   },
+  {
+    title: "终于！CUDA 官宣：添加原生 Python 支持，开发者狂喜...",
+    cont: "4 月 10 日 19:30，CSDN《万有引力》栏目特别邀请腾讯云开发者 AI 产品负责人汪晟杰，百度 Com...",
+    like: "66612",
+    view: "888421"
+   },
+  {
+    title: "“我干的真是一份工吗？”做软件工程师有多疯：React+运维+管理=1个人干……",
+    cont: "在技术行业狂奔的今天，软件工程师似乎成了“全能超人”的代名词——既要深挖技术栈，又要横跨前后...",
+    like: "66612",
+    view: "888421"
+   },
+  {
+    title: "2025全球机器学习技术大会最新日程来了，一键Get参会指南！",
+    cont: "由 CSDN&Boolan 联合举办的 2025 全球机器学习技术大会（ML-Summit）将于 4 月 18-19 日在上海...",
+    like: "66612",
+    view: "888421"
+   },
+  {
+    title: "Python究竟能不能变得更快？",
+    cont: "任何语言，无论是 Mojo 还是其他类似项目，都很难实现与 Python 现有生态系统的完全兼容，或者获...",
+    like: "66612",
+    view: "888421"
+   },
+  {
+    title: "人人可复现QwQ，蚂蚁清华联手放大招！彻底开源RL框架AReaL-boba",
+    cont: "由蚂蚁与清华大学交叉信息研究院吴翼老师团队联合推出的开源强化学习框架 AReaL 发布了里程碑版...",
+    like: "66612",
+    view: "888421"
+   },
+   {
+    title: "当AI成了同事，程序员还能做什么？",
+    cont: "4 月 10 日 19:30，CSDN《万有引力》栏目特别邀请腾讯云开发者 AI 产品负责人汪晟杰，百度 Com...",
+    like: "66612",
+    view: "888421"
+  }, {
+    title: "Go占比首次突破3%，Kotlin和Swift退居二线！TIOBE 4月榜单发布",
+    cont: "本周，TIOBE 最新公布了 4 月编程语言排行榜。在这个全球开发者广泛关注的榜单中，这次又有哪些...",
+    like: "66612",
+    view: "888421"
+  },
+  {
+    title: "腾讯张军回应微信“已读”功能；OpenAI对马斯克提起反诉；谷歌发布第七代TP...",
+    cont: "本周，TIOBE 最新公布了 4 月编程语言排行榜。在这个全球开发者广泛关注的榜单中，这次又有哪...",
+    like: "66612",
+    view: "888421"
+   },
+  {
+    title: "小米汽车支持Siri语音控车；苹果市值4天蒸发超5万亿元；斯坦福：中美AI模...",
+    cont: "「极客头条」—— 技术人员的新闻圈！",
+    like: "66612",
+    view: "888421"
+   },
+  {
+    title: "Llama 4刚开源就“翻车”？员工曝内幕：训练时作弊、刷分造榜，自己已选择...",
+    cont: "过去，在强大的 DeepSeek 系列还没开源之前，Meta 的 Llama 一直是开源大模型界的“天花板”。值得...",
+    like: "66612",
+    view: "888421"
+   },
+  {
+    title: "终于！CUDA 官宣：添加原生 Python 支持，开发者狂喜...",
+    cont: "4 月 10 日 19:30，CSDN《万有引力》栏目特别邀请腾讯云开发者 AI 产品负责人汪晟杰，百度 Com...",
+    like: "66612",
+    view: "888421"
+   },
+  {
+    title: "“我干的真是一份工吗？”做软件工程师有多疯：React+运维+管理=1个人干……",
+    cont: "在技术行业狂奔的今天，软件工程师似乎成了“全能超人”的代名词——既要深挖技术栈，又要横跨前后...",
+    like: "66612",
+    view: "888421"
+   },
+  {
+    title: "2025全球机器学习技术大会最新日程来了，一键Get参会指南！",
+    cont: "由 CSDN&Boolan 联合举办的 2025 全球机器学习技术大会（ML-Summit）将于 4 月 18-19 日在上海...",
+    like: "66612",
+    view: "888421"
+   },
+  {
+    title: "Python究竟能不能变得更快？",
+    cont: "任何语言，无论是 Mojo 还是其他类似项目，都很难实现与 Python 现有生态系统的完全兼容，或者获...",
+    like: "66612",
+    view: "888421"
+   },
+  {
+    title: "人人可复现QwQ，蚂蚁清华联手放大招！彻底开源RL框架AReaL-boba",
+    cont: "由蚂蚁与清华大学交叉信息研究院吴翼老师团队联合推出的开源强化学习框架 AReaL 发布了里程碑版...",
+    like: "66612",
+    view: "888421"
+   },
 ]); // 数据列表
     const page = ref(1); // 当前页
     const limit = ref(5); // 每页数据条数
@@ -73,7 +185,33 @@ function throttle(fn, delay) {
 }
 
 
-const rigData = ref([])
+const rigData = ref({
+  bang1:[
+    "双城之战2第二幕预告分析",
+    "特朗普竞选成功",
+    "iphone16跳水价",
+    "移动应用开发实验室纳新公告",
+    "mlxg砸键盘受伤",
+    "卡普空老将入职腾讯光子",
+    "勇士主场战胜独行侠"
+  ],
+bang2:[
+    "3G移动应用开发实验室",
+    "猿辅导",
+    "字节跳动HR",
+    "华为云开发联盟",
+    "BOSS直聘"
+  ],
+bang3:[
+    "每日快讯",
+    "我的Java后端之旅",
+    "英语考级",
+    "创新创业讲座",
+    "金九银十，备战秋招",
+    "宇宙大厂的尽头是进字节",
+    "考研训练营"
+]
+})
 const axios1 = async() => {
   try{
     const res = await request.get('http://localhost:3007/mainPart/titbang')
@@ -120,7 +258,7 @@ const selectItem=(item)=>{
           <div class="two" :class="{'light':selectLight==1}" @click="selectLight = 1;">最新</div>
         </li>
         <!-- <el-skeleton v-if="loading" :rows="5" animated /> -->
-        <content class="m-child" v-for="(item,index) in itemList" :key="index" :title="item.title" :cont="item.cont"  :like="item.like" :view="item.view" "></content>
+        <content class="m-child" v-for="(item,index) in itemList" :key="index" :title="item.title" :cont="item.cont"  :like="item.like" :view="item.view" ></content>
       </ul>
     <!-- 没有更多数据 -->
     <p v-if="!hasMore && !loading">没有更多数据了</p>
