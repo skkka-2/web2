@@ -7,9 +7,10 @@ const selectLight = ref(0)
 {/* <content v-else class="m-child" v-for="(item,index) in itemList" :key="index" :title="item.title" :cont="item.cont" :picUrl="item.picUrl" :like="item.like" :view="item.view" :user="item.user"></content> */}
 const itemList = ref([
   {
-    title: "文章1",
-    cont: "内容1",
-    
+    title: "当AI成了同事，程序员还能做什么？",
+    cont: "4 月 10 日 19:30，CSDN《万有引力》栏目特别邀请腾讯云开发者 AI 产品负责人汪晟杰，百度 Com...",
+    like: "66612",
+    view: "888421"
    }
 ]); // 数据列表
     const page = ref(1); // 当前页
@@ -119,7 +120,7 @@ const selectItem=(item)=>{
           <div class="two" :class="{'light':selectLight==1}" @click="selectLight = 1;">最新</div>
         </li>
         <!-- <el-skeleton v-if="loading" :rows="5" animated /> -->
-        <content class="m-child" v-for="(item,index) in itemList" :key="index" :title="item.title" :cont="item.cont" :picUrl="item.picUrl" :like="item.like" :view="item.view" :user="item.user"></content>
+        <content class="m-child" v-for="(item,index) in itemList" :key="index" :title="item.title" :cont="item.cont"  :like="item.like" :view="item.view" "></content>
       </ul>
     <!-- 没有更多数据 -->
     <p v-if="!hasMore && !loading">没有更多数据了</p>

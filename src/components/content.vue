@@ -5,8 +5,6 @@ const props = defineProps({
   cont: String,
   like: Number,
   view: String,
-  picUrl: String,
-  user: String
 })
 
 
