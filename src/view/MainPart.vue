@@ -4,12 +4,19 @@ import content from '../components/content.vue'
 import request from '../util/request';
 const selectLight = ref(0)
 
-
-    const itemList = ref([]); // 数据列表
+{/* <content v-else class="m-child" v-for="(item,index) in itemList" :key="index" :title="item.title" :cont="item.cont" :picUrl="item.picUrl" :like="item.like" :view="item.view" :user="item.user"></content> */}
+const itemList = ref([
+  {
+    title: "文章1",
+    cont: "内容1",
+    
+   }
+]); // 数据列表
     const page = ref(1); // 当前页
     const limit = ref(5); // 每页数据条数
     const loading = ref(false); // 加载状态
     const hasMore = ref(true); // 是否还有更多数据
+    
 
 
 
@@ -111,8 +118,8 @@ const selectItem=(item)=>{
            
           <div class="two" :class="{'light':selectLight==1}" @click="selectLight = 1;">最新</div>
         </li>
-        <el-skeleton v-if="loading" :rows="5" animated />
-        <content v-else class="m-child" v-for="(item,index) in itemList" :key="index" :title="item.title" :cont="item.cont" :picUrl="item.picUrl" :like="item.like" :view="item.view" :user="item.user"></content>
+        <!-- <el-skeleton v-if="loading" :rows="5" animated /> -->
+        <content class="m-child" v-for="(item,index) in itemList" :key="index" :title="item.title" :cont="item.cont" :picUrl="item.picUrl" :like="item.like" :view="item.view" :user="item.user"></content>
       </ul>
     <!-- 没有更多数据 -->
     <p v-if="!hasMore && !loading">没有更多数据了</p>
